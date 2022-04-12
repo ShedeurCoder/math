@@ -1,0 +1,57 @@
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+#m {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+}
+input, button {
+    font-size: 1.5rem;
+}
+button {
+    cursor: pointer;
+}
+#timer {
+    float: right;
+}
+span {
+    font-size: 1.5rem;
+
+}
+#f {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#c {
+    display: none;
+}
+#s {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#s button {
+    font-size: 4rem;
+    padding: 5% 7%;
+    border-radius: 50px;
+    background-color: white;
+    border: 5px solid black;
+}
+.pa {
+    padding: 3%;
+    border-radius: 40px;
+    background-color: white;
+    border: 5px solid black;
+}
